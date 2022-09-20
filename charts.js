@@ -153,10 +153,10 @@ function buildCharts(sample) {
 
 // 2. Create a variable that holds the first sample in the metadata array.
     var result2 = resultArray2[0];
-
+console.log(result2);
     // Create a variale to hold the washing frequency.
-    var washingFrequency = result2.washingFrequency
-
+    var washingFrequency = result2.wfreq
+console.log(washingFrequency);
     // 4. Create the trace for the gauge chart.
     var gaugeData = [ {
       
@@ -187,9 +187,6 @@ function buildCharts(sample) {
    
   ];
 
-      
-     
- 
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
